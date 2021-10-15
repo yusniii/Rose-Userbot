@@ -413,7 +413,7 @@ async def _(event):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai Anj🙈, Jangan Lupa Makan Yaa`")
+    await typew.edit("`Hai Anj🙈, Jangan Lupa Makan Ya`")
     sleep(1)
     await typew.edit("`Jangan Bilang Lu Ga Dikasih Makan Sama Ortu 😁`")
     sleep(1)
