@@ -330,7 +330,7 @@ async def spider(spdr):
         )
 
     # If everything goes well, do announcing and mute
-    await spdr.edit("`sejelek dimute bacotan nya ga keras!`")
+    await spdr.edit("`sijelek dimute bacotan nya ga keras!`")
     if mute(spdr.chat_id, user.id) is False:
         return await spdr.edit("`Error! Pengguna Sudah Dibisukan.`")
     else:
@@ -905,15 +905,15 @@ async def get_bots(show):
 
 CMD_HELP.update(
     {
-        "admin": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.promote` <username/balas ke pesan> <nama title (optional)>"
+        "admin": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.babu` <username/balas ke pesan> <nama title (optional)>"
         "\n↳ : Mempromosikan member sebagai admin."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.demote` <username/balas ke pesan>"
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gaguna` <username/balas ke pesan>"
         "\n↳ : Menurunkan admin sebagai member."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ban` <username/balas ke pesan> <alasan (optional)>"
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sange` <username/balas ke pesan> <alasan (optional)>"
         "\n↳ : Memblokir Seseorang."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.unban <username/reply>`"
         "\n↳ : Menghapus Blokir."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.mute` <username/balas ke pesan> <alasan (optional)>"
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.diamjelek` <username/balas ke pesan> <alasan (optional)>"
         "\n↳ : Membisukan Seseorang Di Grup, Bisa Ke Admin Juga."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.unmute` <username/balas ke pesan>"
         "\n↳ : Membuka bisu orang yang dibisukan."
