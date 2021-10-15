@@ -352,15 +352,15 @@ async def koc(e):
 @register(outgoing=True, pattern='^.sangean(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kalo Sange Modal`")
+    await typew.edit("`KALO JELEK GAUSAH SANGEAN`")
     sleep(1)
-    await typew.edit("`Jangan Modal Kontol Doang`")
+    await typew.edit("`MALU SAMA MUKA GADA BENTUKAN`")
     sleep(1)
-    await typew.edit("`Goblook Emang`")
+    await typew.edit("`Goblok lu`")
     sleep(1)
-    await typew.edit("`Kelamaan Nge Jomblo Sih`")
+    await typew.edit("`KELAMAAN VIRTUAL YA?`")
     sleep(1)
-    await typew.edit("`Jadinya Gitu, Sange Berat`")
+    await typew.edit("`Kasian sange kok virtual`")
     sleep(1)
     await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
 # Create by myself @localheart
@@ -390,17 +390,17 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`",
-            "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
-            "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            "`Connecting Ke Server Dosa Saya`",
+            "`Mencari Target Dosa`",
+            "`Transfer Dosaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Transfer Dosaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Transfer Dosaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Trasnfer Dosaku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Transfer Dosaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Transfer Dosaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Transfer Dosaku.. 84%\n█████████████████████▒▒▒▒ `",
+            "`Transfer Dosaku.. 100%\n█████████DOSA SAYA███████████ `",
+            f"`OKE KELAS SEKARANG DOSAKU KAMU YANG TANGGUNG MAKASI SAMA SAMA💞`"]
 
         for i in animation_ttl:
 
@@ -413,7 +413,7 @@ async def _(event):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai Anak Kontol 🙈, Jangan Lupa Makan Yaa`")
+    await typew.edit("`Hai Anj🙈, Jangan Lupa Makan Yaa`")
     sleep(1)
     await typew.edit("`Jangan Bilang Lu Ga Dikasih Makan Sama Ortu 😁`")
     sleep(1)
