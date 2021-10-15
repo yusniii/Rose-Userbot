@@ -113,7 +113,7 @@ async def set_group_photo(gpic):
             await gpic.edit(PP_ERROR)
 
 
-@register(outgoing=True, pattern=r"^\.promote(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.babu(?: |$)(.*)")
 async def promote(promt):
     # Get targeted chat
     chat = await promt.get_chat()
@@ -134,7 +134,7 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Promosikan Pengguna Sebagai Admin... Mohon Menunggu`")
+    await promt.edit("`jadiin si anj etmin..sabar sikit kau`")
     user, rank = await get_user_from_event(promt)
     if not rank:
         rank = "Admin"  # Just in case.
@@ -144,7 +144,7 @@ async def promote(promt):
     # Try to promote if current user is admin or creator
     try:
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Berhasil Mempromosikan Pengguna Ini Sebagai Admin!`")
+        await promt.edit("`udah jadi etmin nih cie cie anjing!`")
         await sleep(5)
         await promt.delete()
 
@@ -163,7 +163,7 @@ async def promote(promt):
         )
 
 
-@register(outgoing=True, pattern=r"^\.demote(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.gaguna(?: |$)(.*)")
 async def demote(dmod):
     # Admin right check
     chat = await dmod.get_chat()
@@ -174,7 +174,7 @@ async def demote(dmod):
         return await dmod.edit(NO_ADMIN)
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Sedang Melepas Admin...`")
+    await dmod.edit("`nyampah kau jadi admin numpang nama pula...`")
     rank = "Admin"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
@@ -198,7 +198,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Admin Berhasil Dilepas!`")
+    await dmod.edit("`gaguna jadi admin!`")
     await sleep(5)
     await dmod.delete()
 
@@ -212,7 +212,7 @@ async def demote(dmod):
         )
 
 
-@register(outgoing=True, pattern=r"^\.ban(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.sange(?: |$)(.*)")
 async def ban(bon):
     # Here laying the sanity check
     chat = await bon.get_chat()
@@ -228,7 +228,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Melakukan Banned!`")
+    await bon.edit("`banned aja udah jelek sangean titit jamuran lagi!`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -301,7 +301,7 @@ async def nothanos(unbon):
         await unbon.edit("`Sepertinya Terjadi Kesalahan!`")
 
 
-@register(outgoing=True, pattern=r"^\.mute(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.diamjelek(?: |$)(.*)")
 async def spider(spdr):
     # Check if the function running under SQL mode
     try:
@@ -330,7 +330,7 @@ async def spider(spdr):
         )
 
     # If everything goes well, do announcing and mute
-    await spdr.edit("`Telah Dibisukan!`")
+    await spdr.edit("`sejelek dimute bacotan nya ga keras!`")
     if mute(spdr.chat_id, user.id) is False:
         return await spdr.edit("`Error! Pengguna Sudah Dibisukan.`")
     else:
@@ -341,7 +341,7 @@ async def spider(spdr):
             if reason:
                 await spdr.edit(f"**Telah Dibisukan!**\n**Alasan:** `{reason}`")
             else:
-                await spdr.edit("`Telah Dibisukan!`")
+                await spdr.edit("`sejelek dimute bacotan nya ga keras`")
 
             # Announce to logging group
             if BOTLOG:
@@ -373,7 +373,7 @@ async def unmoot(unmot):
         return await unmot.edit(NO_SQL)
 
     # If admin or creator, inform the user and start unmuting
-    await unmot.edit("```Melakukan Unmute...```")
+    await unmot.edit("```unmute sianjing...```")
     user = await get_user_from_event(unmot)
     user = user[0]
     if not user:
@@ -385,7 +385,7 @@ async def unmoot(unmot):
 
         try:
             await unmot.client(EditBannedRequest(unmot.chat_id, user.id, UNBAN_RIGHTS))
-            await unmot.edit("```Berhasil Melakukan Unmute! Pengguna Sudah Tidak Lagi Dibisukan```")
+            await unmot.edit("```sianjing uda ga bisu cok```")
             await sleep(3)
             await unmot.delete()
         except UserIdInvalidError:
