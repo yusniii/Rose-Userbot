@@ -30,7 +30,7 @@ async def gucast(event):
         return await event.edit("`Berikan beberapa teks untuk Siaran Global`")
     tt = event.text
     msg = tt[7:]
-    kk = await event.edit("`Sedang Mengirim pesan secara global...`")
+    kk = await event.edit("`Sedang mengirim dosa ke gc orang...`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -41,7 +41,7 @@ async def gucast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kk.edit(f"Berhasil Mengirim Pesan Ke `{done}` obrolan, kesalahan dalam `{er}` obrolan(s)")
+    await kk.edit(f"Berhasil Mengirim Dosa Ke Gc `{done}` obrolan, kesalahan dalam `{er}` obrolan(s)")
 
 
 CMD_HELP.update(
