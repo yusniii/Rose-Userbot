@@ -400,7 +400,7 @@ async def _(event):
             "`Transfer Dosaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Transfer Dosaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Transfer Dosaku.. 100%\n█████████DOSA SAYA███████████ `",
-            f"`OKE KELAS SEKARANG DOSAKU KAMU YANG TANGGUNG MAKASI SAMA SAMA💞`"]
+            f"`OKE KELAR SEKARANG DOSAKU KAMU YANG TANGGUNG MAKASI SAMA SAMA💞`"]
 
         for i in animation_ttl:
 
