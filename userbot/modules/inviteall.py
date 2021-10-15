@@ -80,6 +80,6 @@ async def get_users(event):
 
 CMD_HELP.update({
     "inviteall":
-        "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.inviteall groups username`\
+        "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.nyulik groups username`\
           \n📌 : __Scrapes users from the given chat to your group__."
 })
