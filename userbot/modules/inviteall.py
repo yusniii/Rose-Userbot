@@ -48,14 +48,14 @@ async def get_chatinfo(event):
     return chat_info
 
 
-@register(outgoing=True, pattern=r"^\.inviteall(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.nyulik(?: |$)(.*)")
 async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
     if not sender.id == me.id:
-        geez = await event.reply("`processing...`")
+        geez = await event.reply("`sabar gi nyulik...`")
     else:
-        geez = await event.edit("`processing...`")
+        geez = await event.edit("`sabar asu...`")
     geezteam = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
@@ -64,7 +64,7 @@ async def get_users(event):
     f = 0
     error = 'None'
 
-    await geez.edit("**TerminalStatus**\n\n`Collecting Users.......`")
+    await geez.edit("**Orang sabar di sayang Aku**\n\n`Proses nyulik .......`")
     async for user in event.client.iter_participants(geezteam.full_chat.id):
         try:
             if error.startswith("Too"):
@@ -75,7 +75,7 @@ async def get_users(event):
         except Exception as e:
             error = str(e)
             f = f + 1
-    return await geez.edit(f"**Terminal Finished** \n\n• Successfully Invited `{s}` people \n• failed to invite `{f}` people")
+    return await geez.edit(f"**Berhasil Nyulik** \n\n• Bisa nyulik`{s}` people \n• Yang privat`{f}` people")
 
 
 CMD_HELP.update({
