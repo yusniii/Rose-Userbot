@@ -628,7 +628,7 @@ async def pin(msg):
     except BadRequestError:
         return await msg.edit(NO_PERM)
 
-    await msg.edit("`Berhasil Melakukan Pinned!`")
+    await msg.edit("`Berhasil Melakukan Pin!`")
     await sleep(2)
     await msg.delete()
 
