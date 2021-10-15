@@ -31,7 +31,7 @@ async def koc(e):
         await e.edit("MY BABY")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
-        await e.edit("SAYANG KAMU💞")
+        await e.edit("SAYANG NYA CUMA VIRTUAL💞")
 
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
@@ -385,7 +385,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "cinta":
+    if input_str == "dosa saya":
 
         await event.edit(input_str)
 
@@ -441,7 +441,7 @@ CMD_HELP.update({
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.yatim`\
     \n↳ : Buat bercandaan, kalo gasuka jangan dipake.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cinta`\
-    \n↳ : Mengirim cinta tai anjiing ke seseorang.\
+    \n↳ : Transfer dosa saya ke orang laknat.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean`\
