@@ -9,7 +9,7 @@ async def gcast(event):
         return await event.edit("`Mohon Berikan Sebuah Pesan`")
     tt = event.text
     msg = tt[6:]
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📢`")
+    kk = await event.edit("`NGIRIM DOSA KE GC ORANG... 📢`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -20,7 +20,7 @@ async def gcast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
+    await kk.edit(f"**Berhasil Ngirim dosa cuk ke** `{done}` **Grup, Gagal Anj** `{er}` **Grup**")
 
 
 @register(outgoing=True, pattern=r"^\.gucast(?: |$)(.*)")
@@ -30,7 +30,7 @@ async def gucast(event):
         return await event.edit("`Berikan beberapa teks untuk Siaran Global`")
     tt = event.text
     msg = tt[7:]
-    kk = await event.edit("`Sedang mengirim dosa ke gc orang...`")
+    kk = await event.edit("`Sedang mengirim dosa saya...`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -41,7 +41,7 @@ async def gucast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kk.edit(f"Berhasil Mengirim Dosa Ke Gc `{done}` obrolan, kesalahan dalam `{er}` obrolan(s)")
+    await kk.edit(f"Berhasil COK `{done}` obrolan, kesalahan dalam `{er}` obrolan(s)")
 
 
 CMD_HELP.update(
