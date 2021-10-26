@@ -5,33 +5,33 @@ from telethon import events
 import asyncio
 
 
-@register(outgoing=True, pattern="^.sayang$")
+@register(outgoing=True, pattern="^.war$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("I LOVEE YOUUU 💕")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💗💕")
-        await e.edit("💘💞💕💗")
-        await e.edit("SAYANG KAMU 💝💖💘")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💕💗")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("SELAMANYA 💕")
-        await e.edit("💘💘💘💘")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("I LOVE YOUUUU")
-        await e.edit("MY BABY")
-        await e.edit("💕💞💘💝")
-        await e.edit("💘💕💞💝")
-        await e.edit("SAYANG NYA CUMA VIRTUAL💞")
+        await e.edit("BUSET ADA KANG WAR NIH BESTI")
+        await e.edit("RUN BESTI")
+        await e.edit("RUN")
+        await e.edit("ANGJAYY")
+        await e.edit("NGERIK")
+        await e.edit("SET DAH")
+        await e.edit("TYP PANJANG KALI LEBAR")
+        await e.edit("GUA BACA AE KAGA")
+        await e.edit("CIAHAHAHAA")
+        await e.edit("JENGBOT")
+        await e.edit("TYP PENUH DOSA")
+        await e.edit("AE BANGGA")
+        await e.edit("YHAHAHA")
+        await e.edit("GINI AMAT")
+        await e.edit("SET")
+        await e.edit("GUE CUPU NIH")
+        await e.edit("AJARIN WAR ")
+        await e.edit("KEK LU DONG BESTI")
+        await e.edit("ACIAHAHAHA")
+        await e.edit("TYP JAGO BAT")
+        await e.edit("BIAR APA CUG?")
+        await e.edit("KEREN?")
+        await e.edit("GA TOT ")
+        await e.edit("WKEKEKEWKW")
 
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
@@ -442,7 +442,7 @@ CMD_HELP.update({
     \n↳ : Buat bercandaan, kalo gasuka jangan dipake.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cinta`\
     \n↳ : Transfer dosa saya ke orang laknat.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.war`\
     \n↳ : Berubah menjadi kadal.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean`\
     \n↳ : Kasih aja buat orang yang sangean."
