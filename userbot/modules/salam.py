@@ -13,11 +13,10 @@ async def typewriter(typew):
     await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦...")
 
 
-@register(outgoing=True, pattern='^.yus(?: |$)(.*)')
+@register(outgoing=True, pattern='^.atg(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("TERUS LU PIKIR GUA PEDULI? TENTU SAJA TIDAK YAHAHAHA RUN SAJA BESTI RUN LU TYP GITU LU PIKIR GUA BACA TYP LU? NAJIS BAT SIAL.PEN BAT DI NOTICE GUA YA? CIAHAHA NGENTOT NGENTOT DI TELE MAH JAGO DI RL AUTIS BUSET DAH AH UDAH MUKA KAGA CAKEP BAU JENGBUT SOSOAN SEGALA ENTOT JIAKH KENA MENTAL SOSMED MALAH HIATUS SEGALA UNIN TELE AUTIS BAT ANJ KALO GA ADA NYALI DIEM AJA BOS KE TRIGGER SENDIRI NTAR WKEKEKEEK TAWAIN AJA BOCAH AUTIS NYALI MASIH PATUNGAN DIEM AJA BEGO APA LU MAU BILANG FEEDBACK? SETIA KAWAN? AELAH NGENTOT GA USAH SEMBUNYI DIBALIK KATA ITU JAMET JIAHAHAHA.RUN SAJA BESTI ADA NYALI PATUNGAN BERKEDOK SETIA KAWAN WKEKEKEKE")
-
+    await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇....SAYANG!!!!")
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
 async def typewriter(typew):
