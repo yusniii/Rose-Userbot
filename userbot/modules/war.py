@@ -1,5 +1,5 @@
 # ReCode by @skyzu
-# FROM skyzu-userbot <https://github.com/Skyzu/skyzu-userbot>
+# FROM gajelas-userbot <https://github.com/yusniii/gajelas-userbot>
 # KONTOLLLLLL
 
 from time import sleep
