@@ -150,6 +150,7 @@ CMD_HELP.update(
 \nUsage: Haha sokap."
     }
 )
+
 CMD_HELP.update(
     {
         "salam2": "V\
