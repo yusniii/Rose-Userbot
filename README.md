@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/geez.gif" width="35px">YXZN-USERBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/geez.gif" width="35px">YXZN-UBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
 
 
 <p align="center">
