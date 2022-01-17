@@ -1,8 +1,8 @@
-<h1 align="center"><img src="./resources/extras/geez.gif" width="35px">ROSE-UBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/geez.gif" width="35px">YUSNI-UBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/e7280f3279dbb306815e3.jpg">
+  <img src="https://telegra.ph/file/caacf32db1075d98205d4.jpg">
 </p>
 </p>
 <p align="center">
