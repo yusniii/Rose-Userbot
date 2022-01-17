@@ -1,5 +1,9 @@
 <h1 align="center"><img src="./resources/extras/geez.gif" width="35px">ROSE-UBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
 
+
+<p align="center">
+  <img src="https://telegra.ph/file/e7280f3279dbb306815e3.jpg">
+</p>
 </p>
 <p align="center">
     <a href="https://github.com/SendiAp/Rose-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -9,6 +13,10 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
     <a href="https://t.me/Rose_Userbot"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
+
+<h4 align="center"> ⚠️DEPLOY TO HEROKU⚠️ </p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/SendiAp/Rose-UserBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-indigo?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
+
 
 <h4 align="center"> DISCLAIMER </p>
 
@@ -21,12 +29,8 @@
   Jangan pernah sekali sekali menyalah gunakan repository ini
 ```
 
-<p align="center">
-  <img src="https://telegra.ph/file/e7280f3279dbb306815e3.jpg">
-</p>
 
-<h4 align="center"> ⚠️DEPLOY TO HEROKU⚠️ </p>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/SendiAp/Rose-UserBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-indigo?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
+
 
 ## String Session :
 
